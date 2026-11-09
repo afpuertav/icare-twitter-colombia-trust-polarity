@@ -1,0 +1,57 @@
+handle,categoria,nombre,justificacion
+@ivanduque,lider_nacional,Ivan Duque,Presidente de Colombia 2018-2022
+@infopresidencia,lider_nacional,Presidencia de Colombia,Cuenta oficial de la Presidencia
+@mluciaramirez,lider_nacional,Marta Lucia Ramirez,Vicepresidenta de Colombia 2018-2022
+@claudialopez,lider_regional,Claudia Lopez,Alcaldesa de Bogota 2020-2023
+@quinterocalle,lider_regional,Daniel Quintero,Alcalde de Medellin 2020-2023
+@jorgeivanospina,lider_regional,Jorge Ivan Ospina,Alcalde de Cali 2020-2023
+@alcaldiabogota,lider_regional,Alcaldia de Bogota,Gobierno distrital
+@alcaldiademed,lider_regional,Alcaldia de Medellin,Gobierno municipal
+@alcaldiadecali,lider_regional,Alcaldia de Cali,Gobierno municipal
+@gobantioquia,lider_regional,Gobernacion de Antioquia,Gobierno departamental
+@anibalgaviria,lider_regional,Anibal Gaviria,Gobernador de Antioquia 2020-2023
+@minsaludcol,autoridad_salud,Ministerio de Salud de Colombia,Autoridad sanitaria nacional
+@inscolombia,autoridad_salud,Instituto Nacional de Salud,Autoridad sanitaria nacional
+@invimacolombia,autoridad_salud,INVIMA,Agencia reguladora sanitaria
+@saludcapital,autoridad_salud,Secretaria de Salud de Bogota,Autoridad sanitaria distrital
+@ungrd,autoridad_salud,Unidad Nacional de Gestion del Riesgo,Entidad de gestion de emergencias
+@mininterior,autoridad_salud,Ministerio del Interior,Gobierno nacional en respuesta COVID
+@who,oms,World Health Organization,Organizacion Mundial de la Salud
+@opsoms,oms,OPS/OMS,Oficina regional de la OMS para las Americas
+@drtedros,oms,Tedros Adhanom Ghebreyesus,Director General de la OMS
+@minciencias,ciencia,Ministerio de Ciencia Tecnologia e Innovacion,Autoridad cientifica nacional
+@unaloficial,ciencia,Universidad Nacional de Colombia,Institucion academica
+@uniandes,ciencia,Universidad de los Andes,Institucion academica
+@udea,ciencia,Universidad de Antioquia,Institucion academica
+@eafit,ciencia,Universidad EAFIT,Institucion academica
+@thelancet,ciencia,The Lancet,Revista cientifica
+@nature,ciencia,Nature,Revista cientifica
+@sciencemagazine,ciencia,Science,Revista cientifica
+@eltiempo,medios,El Tiempo,Diario nacional
+@elespectador,medios,El Espectador,Diario nacional
+@elcolombiano,medios,El Colombiano,Diario regional
+@elheraldoco,medios,El Heraldo,Diario regional
+@elpaiscali,medios,El Pais Cali,Diario regional
+@vanguardiacom,medios,Vanguardia,Diario regional
+@noticiascaracol,medios,Noticias Caracol,Noticiero de television
+@noticiasrcn,medios,Noticias RCN,Noticiero de television
+@caracolradio,medios,Caracol Radio,Radio informativa
+@blublogsradio,medios,Blu Radio,Radio informativa
+@lafm,medios,La FM,Radio informativa
+@wradiocolombia,medios,W Radio,Radio informativa
+@revistasemana,medios,Revista Semana,Revista de actualidad
+@lasillavacia,medios,La Silla Vacia,Medio digital
+@citytv,medios,City TV,Canal de television local
+@bbcmundo,medios,BBC Mundo,Medio internacional en espanol
+@cnnee,medios,CNN en Espanol,Medio internacional en espanol
+@reuters,medios,Reuters,Agencia internacional de noticias
+@pontifex_es,lider_comunitario,Papa Francisco,Lider religioso
+@onic_colombia,lider_comunitario,ONIC,Organizacion indigena nacional
+@fecode,lider_comunitario,FECODE,Federacion sindical de educadores
+@jbalvin,famosos,J Balvin,Musico
+@shakira,famosos,Shakira,Musica
+@maluma,famosos,Maluma,Musico
+@carlosvives,famosos,Carlos Vives,Musico
+@juanes,famosos,Juanes,Musico
+@falcao,famosos,Radamel Falcao,Deportista
+@jamesdrodriguez,famosos,James Rodriguez,Deportista
