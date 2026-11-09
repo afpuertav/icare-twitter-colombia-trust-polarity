@@ -1,0 +1,51 @@
+# Entorno conda para el equipo local (Windows + NVIDIA).
+#
+#   conda env create -f entorno.yml
+#   conda activate icare
+#   python -m spacy download es_core_news_sm
+#
+# PyTorch con CUDA NO se instala desde aqui: el paquete de conda-forge
+# suele venir en version CPU y entonces la GPU no se usa. Se instala
+# aparte, despues de activar el entorno, con la rueda oficial de CUDA:
+#
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+#   pip install accelerate
+#
+# Y se comprueba que la GPU se vea:
+#
+#   python -c "import torch; print(torch.cuda.is_available(), torch.cuda.get_device_name(0))"
+#
+# Debe imprimir True y el nombre de la tarjeta. Si imprime False, el
+# pipeline funcionaria igual pero las etapas 03bt, 04 y 05 pasarian a CPU
+# y tardarian dias en vez de horas.
+name: icare
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas>=2.0,<3.0
+  - numpy>=1.24,<3.0
+  - pyarrow>=12.0
+  - openpyxl>=3.1
+  - scipy>=1.10,<2.0
+  - scikit-learn>=1.3,<2.0
+  - matplotlib>=3.7,<4.0
+  - spacy>=3.7,<4.0
+  - nltk>=3.8
+  - tqdm>=4.65
+  - pip
+  - pip:
+      - xgboost>=2.0,<3.0
+      - Unidecode>=1.3
+      - transformers>=4.35,<5.0
+      # XLM-RoBERTa (el modelo de entidades y el de polaridad) usa un
+      # tokenizador SentencePiece. transformers lo convierte a su formato
+      # rapido en tiempo de carga, y esa conversion necesita estas dos
+      # librerias. Sin ellas la etapa 04 falla DESPUES de descargar 2.2 GB
+      # de modelo, con un ImportError de protobuf que no menciona el
+      # tokenizador por ningun lado.
+      - sentencepiece
+      - protobuf
+# accelerate NO va aqui a proposito: depende de torch y lo instalaria
+# desde PyPI en su version CPU. correr.bat lo instala DESPUES del torch
+# con CUDA, cuando pip ya ve la dependencia satisfecha por el bueno.

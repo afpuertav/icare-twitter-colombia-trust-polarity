@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+type: software
+title: "Code for: Classifier Precision in Comparing Twitter/X Discourse With Survey Trust Data on COVID-19 Information Sources in Colombia: Cross-Source Infodemiology Study"
+version: 1.0.0
+date-released: 2026-11-09
+license: MIT
+authors:
+  - family-names: "Puerta Velez"
+    given-names: "Andres Felipe"
+    affiliation: "Universidad EAFIT"
+  - family-names: "Lemos Hoyos"
+    given-names: "Mariantonia"
+    affiliation: "Universidad EAFIT"
+  - family-names: "Suarez Sierra"
+    given-names: "Biviana Marcela"
+    affiliation: "Universidad EAFIT"
+  - family-names: "Jaramillo Giraldo"
+    given-names: "Valeria"
+  - family-names: "Hincapié Montoya"
+    given-names: "Edwin Mauricio"
+    affiliation: "Universidad EAFIT"
+keywords:
+  - COVID-19
+  - infodemiology
+  - Twitter/X
+  - sentiment polarity
+  - iCARE
+  - Colombia

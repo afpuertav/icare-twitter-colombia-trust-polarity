@@ -1,0 +1,16 @@
+# Dependencias del pipeline. Versiones con tope superior para que una
+# actualizacion de una libreria no cambie los resultados en silencio.
+pandas>=2.0,<3.0
+numpy>=1.24,<3.0
+pyarrow>=12.0
+openpyxl>=3.1
+scipy>=1.10,<2.0
+scikit-learn>=1.3,<2.0
+xgboost>=2.0,<3.0
+matplotlib>=3.7,<4.0
+spacy>=3.7,<4.0
+nltk>=3.8
+Unidecode>=1.3
+tqdm>=4.65
+torch>=2.0
+transformers>=4.35,<5.0
