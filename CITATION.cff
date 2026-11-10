@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite it as below."
 type: software
-title: "Code for: Classifier Precision in Comparing Twitter/X Discourse With Survey Trust Data on COVID-19 Information Sources in Colombia: Cross-Source Infodemiology Study"
+title: "Code for: Comparing Twitter/X discourse with survey trust in COVID-19 information sources in Colombia: the role of classifier precision"
 version: 1.0.0
 date-released: 2026-11-09
 license: MIT

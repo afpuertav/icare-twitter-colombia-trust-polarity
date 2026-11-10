@@ -3,10 +3,10 @@
 Analysis code for the article
 
 > Puerta Velez AF, Lemos Hoyos M, Suarez Sierra BM, Jaramillo Giraldo V,
-> Hincapié Montoya EM, on behalf of the iCARE team. *Classifier Precision in
-> Comparing Twitter/X Discourse With Survey Trust Data on COVID-19 Information
-> Sources in Colombia: Cross-Source Infodemiology Study.* Submitted to JMIR
-> Infodemiology.
+> Hincapié Montoya EM, on behalf of the iCARE team. *Comparing Twitter/X
+> discourse with survey trust in COVID-19 information sources in Colombia: the
+> role of classifier precision.* Submitted to the Journal of Computational
+> Social Science.
 
 The pipeline builds a corpus of Colombian tweets about COVID-19 (31 March –
 18 August 2020), classifies the information-source category of the accounts
